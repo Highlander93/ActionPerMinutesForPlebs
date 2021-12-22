@@ -13,6 +13,5 @@ def anything_is_clicked_on_mouse(event):
 
 
 def start_thread_mousehandler():
-    print("Hi?")
     mouse.hook(callback=anything_is_clicked_on_mouse)
     mouse.wait(None)
