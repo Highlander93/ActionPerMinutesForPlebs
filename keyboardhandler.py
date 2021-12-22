@@ -5,7 +5,7 @@ counter = 0
 arr = []
 
 
-def anything_is_pressed_on_keyboard(event):
+def anything_is_pressed_on_keyboard():
     global counter
     global arr
     counter += 1
