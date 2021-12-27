@@ -1,15 +1,12 @@
+from datetime import datetime
+
 import keyboard
 
-
-counter = 0
-arr = []
+import arrayhandler
 
 
-def anything_is_pressed_on_keyboard():
-    global counter
-    global arr
-    counter += 1
-    print(str(counter) + "Keyboard pressed \n________________________________________________")
+def anything_is_pressed_on_keyboard(event):
+    arrayhandler.write_action_in_arr()
 
 
 def start_thread_keyboardhandler():
