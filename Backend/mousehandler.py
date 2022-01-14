@@ -2,6 +2,7 @@ import mouse
 
 from Backend import arrayhandler
 
+
 def anything_is_clicked_on_mouse(event):
     if hasattr(event, 'button'):
         if event.event_type == 'down' or event.event_type == 'double':
