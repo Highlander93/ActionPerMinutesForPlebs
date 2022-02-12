@@ -52,5 +52,6 @@ def get_length_array_apm_frontend():
 def get_total_actions_from_backend():
     return arrayhandler.get_total_actions()
 
+
 def start_window():
     window()
