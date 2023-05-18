@@ -1,5 +1,5 @@
 import threading
-
+import tools.constants
 
 from Backend import mousehandler, keyboardhandler, arrayhandler
 from Frontend import windowhandler

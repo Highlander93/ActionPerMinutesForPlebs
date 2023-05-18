@@ -1,0 +1,12 @@
+# declare constants
+CURRENT_APM = "Current apm: "
+MAX_APM = "Max apm: "
+TOTAL_ACTIONS = "Total actions: "
+PLEB = "Du bist ein Pleb!"
+NOOB = "Ein Noob wie er im Buche steht!"
+BEGINNER = "Finger am warm spielen?"
+START_TO_MICRO = "Da will wohl jemand sein Micro zeigen?"
+MICRO = "Ein Profi am Werk!"
+MICROGOD = "Bist du der Microgod?"
+LOVE = "Tastatur- und Mäuseverkäufer lieben diesen Trick!!!"
+EMPTY_STRING = ""
