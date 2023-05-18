@@ -35,7 +35,6 @@ def get_length_array_apm_backend():
     global max_apm
     if len(all_actions_in_one_minute) > max_apm:
         max_apm = len(all_actions_in_one_minute)
-        print(max_apm)
     return len(all_actions_in_one_minute)
 
 
